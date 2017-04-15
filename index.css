@@ -1,0 +1,82 @@
+
+
+:root {
+  --clay: #97504D;
+  --off-white: #DEE8E7;
+  --dark-teal: #254654;
+  --light-blue: #A8C5C8;
+  --med-grey: #C1CBCD;
+}
+
+body {
+  background-color: var(--light-blue);
+  font-family: 'Open Sans', sans-serif;
+  padding: 5%;
+}
+
+.heading {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-row {
+  display: flex; /* this must be here */
+  /*flex-direction: row;  //default*/
+  /*flex-direction: column;*/
+  flex-direction: row-reverse;
+  /*flex-direction: column-reverse;*/
+  /*padding: 5%;*/
+}
+
+.flex-direction-column {
+  display: flex; /* this must be here */
+  /*flex-direction: row;  //default*/
+  flex-direction: column;
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column-reverse;*/
+  /*padding: 5%;*/
+}
+
+.justify-content-space-around {
+  display: flex;
+  /*justify-content: flex-start;    //default value*/
+  /*justify-content: flex-end;*/
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  justify-content: space-around;
+}
+
+.justify-content-flex-end {
+  display: flex;
+  /*justify-content: flex-start;    //default value*/
+  justify-content: flex-end;
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-around;*/
+}
+
+.child1 {
+  background-color: var(--clay);
+  padding: 1%;
+}
+
+.child2 {
+  background-color: var(--dark-teal);
+  padding: 1%;
+}
+
+.child3 {
+  background-color: var(--med-grey);
+  padding: 1%;
+}
+
+.margin {
+  margin: 5%;
+}
+
+.set-width {
+  width: 15%;
+}
