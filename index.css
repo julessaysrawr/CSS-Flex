@@ -1,16 +1,14 @@
-
-
 :root {
-  --clay: #97504D;
-  --off-white: #DEE8E7;
+  --clay: #97504d;
+  --off-white: #dee8e7;
   --dark-teal: #254654;
-  --light-blue: #A8C5C8;
-  --med-grey: #C1CBCD;
+  --light-blue: #a8c5c8;
+  --med-grey: #c1cbcd;
 }
 
 body {
   background-color: var(--light-blue);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 5%;
 }
 
@@ -53,6 +51,28 @@ body {
   display: flex;
   /*justify-content: flex-start;    /* default value */
   justify-content: flex-end;
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-around;*/
+}
+
+.justify-content-center {
+  display: flex;
+  /*justify-content: flex-start;    /* default value */
+  justify-content: center;
+  /* align-content: center; */
+  /* align-items: center; */
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  /*justify-content: space-around;*/
+}
+
+.justify-content-and-align-items-center {
+  display: flex;
+  /*justify-content: flex-start;    /* default value */
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
   /*justify-content: center;*/
   /*justify-content: space-between;*/
   /*justify-content: space-around;*/
