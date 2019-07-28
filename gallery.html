@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Flex</title>
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <main>
+      <h1><code>display: flex</code></h1>
+      <div class="display-flex">
+        <div class="child1">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+      <h1><code>flex-direction: row-reverse</code></h1>
+      <div class="flex-direction-row">
+        <div class="child1">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+      <h1><code>justify-content space-around</code></h1>
+      <div class="justify-content-space-around">
+        <div class="child1 set-width-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-width-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-width-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+      <h1><code>justify-content: flex-end</code></h1>
+      <div class="justify-content-flex-end">
+        <div class="child1 set-width-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-width-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-width-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+      <h1><code>align-items: center</code></h1>
+      <div class="align-items-center set-height">
+          <div class="child1">
+            <h2>Child 1</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child2">
+            <h2>Child 2</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child3">
+            <h2>Child 3</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+      </div>
+      <h1><code>align-items: flex-end</code></h1>
+      <div class="align-items-flex-end set-height">
+          <div class="child1">
+            <h2>Child 1</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child2">
+            <h2>Child 2</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child3">
+            <h2>Child 3</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+      </div>
+      <h1><code>align-items: stretch</code></h1>
+      <div class="align-items-stretch set-height">
+          <div class="child1">
+            <h2>Child 1</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child2">
+            <h2>Child 2</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child3">
+            <h2>Child 3</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+      </div>
+      <h1><code>flex-wrap: wrap</code></h1>
+      <h4>Note: Must resize window to see full effect</h4>
+      <div class="flex-wrap">
+        <div class="child1 set-size-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-size-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-size-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child1 set-size-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-size-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-size-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child1 set-size-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-size-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-size-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child1 set-size-child">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child2 set-size-child">
+          <h2>Child 2</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+        <div class="child3 set-size-child">
+          <h2>Child 3</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+      <h1><code>flex: 1, flex: 2, flex: 1</code></h1>
+      <div class="display-flex">
+          <div class="child1 set-size-child flex-1">
+            <h2>Child 1</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child2 set-size-child flex-2">
+            <h2>Child 2</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+          <div class="child3 set-size-child flex-1">
+            <h2>Child 3</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+          </div>
+      </div>
+      <h1>Perfect Centering</h1>
+      <div class="display-flex set-size-parent">
+        <div class="child1 set-size-child-centered">
+          <h2>Child 1</h2>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus, ligula ut porta finibus</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
